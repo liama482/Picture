@@ -41,12 +41,14 @@ thinline = LineStyle(1, black)
 brkhr = RectangleAsset(130, 32, bl_line, brn)
 head = EllipseAsset(120, 100, bl_line, pale)
 nose = PolygonAsset([(50,60), (75, 40), (100,60)], thinline, turqo)
-#eye1
-#eye2
+#eye1?
+eye2 = CircleAsset(20, thinline, Lgreen)
 
 Sprite(head, (150,140))
 Sprite(brkhr, (100,10))
 Sprite(nose, (75,70))
+Sprite(eye2, (50,40)
+Sprite(eye2, (100, 40)
 # add your code here /\  /\  /\
 
 
