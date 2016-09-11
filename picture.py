@@ -4,7 +4,6 @@ Author: Liam
 Credit: <http://www.december.com/html/spec/color>
 
 Assignment:
-
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
 
 Use at least:
@@ -37,20 +36,21 @@ pale = Color (0xFFFACD, 0.4)
 
 bl_line = LineStyle(3, black)
 thinline = LineStyle(1, black)
-# A graphics asset that represents a rectangle
 brkhr = RectangleAsset(130, 32, bl_line, brn)
 head = EllipseAsset(120, 100, bl_line, pale)
-nose = PolygonAsset([(50,60), (75, 40), (100,60)], thinline, turqo)
-#eye1?
-eye2 = CircleAsset(20, thinline, Lgreen)
+nose = PolygonAsset([(50,60), (75, 40), (100,60), (50,60)], thinline, turqo)
+eye = CircleAsset(20, thinline, Lgreen)
+pupil = CircleAsset (8, thinline, purp)
+mouth = PolygonAsset ([(0,0), (100,0), (80,20), (20,20), (0,0)], bl_line, Orange)
 
 Sprite(head, (150,140))
-Sprite(brkhr, (100,10))
+Sprite(brkhr, (90,10))
 Sprite(nose, (75,70))
-Sprite(eye2, (50,40)
-Sprite(eye2, (100, 40)
-# add your code here /\  /\  /\
-
+Sprite(eye, (190,80))
+Sprite(eye, (110,80))
+Sprite(pupil, (190,80))
+Sprite(pupil, (110,80))
+Sprite(mouth, (100,170))
 
 myapp = App()
 myapp.run()
