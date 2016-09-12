@@ -53,7 +53,7 @@ Sprite(eye, (110,80))
 Sprite(pupil, (190,80))
 Sprite(pupil, (110,80))
 Sprite(mouth, (100,170))
-Sprite(hat, (100,15))
+Sprite(hat, (115,15))
 
 myapp = App()
 myapp.run()
