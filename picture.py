@@ -1,7 +1,7 @@
 """
 picture.py
 Author: Liam
-Credit: <http://www.december.com/html/spec/color>
+Credit: http://www.december.com/html/spec/color
 
 Assignment:
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
