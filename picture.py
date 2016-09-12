@@ -44,7 +44,7 @@ eye = CircleAsset(20, thinline, Lgreen)
 pupil = CircleAsset (8, thinline, purp)
 mouth = PolygonAsset ([(0,0), (100,0), (80,20), (20,20), (0,0)], bl_line, Orange)
 hat = RectangleAsset(80, 20, thinline, turqo)
-neck = EllipseAsset(40, 75, bl_line, pale)
+neck = EllipseAsset(60, 75, bl_line, pale)
 
 Sprite(head, (150,140))
 Sprite(brkhr, (90,10))
