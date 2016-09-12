@@ -36,12 +36,14 @@ pale = Color (0xFFFACD, 0.4)
 
 bl_line = LineStyle(3, black)
 thinline = LineStyle(1, black)
+
 brkhr = RectangleAsset(130, 32, bl_line, brn)
 head = EllipseAsset(120, 100, bl_line, pale)
-nose = PolygonAsset([(50,60), (75, 40), (100,60), (50,60)], thinline, turqo)
+nose = PolygonAsset([(50,60), (75,40), (100,60), (50,60)], thinline, turqo)
 eye = CircleAsset(20, thinline, Lgreen)
 pupil = CircleAsset (8, thinline, purp)
 mouth = PolygonAsset ([(0,0), (100,0), (80,20), (20,20), (0,0)], bl_line, Orange)
+hat = RectangleAsset(100, 20, thinline, turqo)
 
 Sprite(head, (150,140))
 Sprite(brkhr, (90,10))
@@ -51,6 +53,7 @@ Sprite(eye, (110,80))
 Sprite(pupil, (190,80))
 Sprite(pupil, (110,80))
 Sprite(mouth, (100,170))
+Sprite(hat, (95,15))
 
 myapp = App()
 myapp.run()
