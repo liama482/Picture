@@ -1,0 +1,28 @@
+from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
+
+Lgreen = Color (0x7CFC00, 0.95)
+turqo = Color (0x40E0D0, 0.99)
+Orange = Color (0xFF8600, 1)
+black = Color (0x000000, 0.85)
+purp = Color (0x68228B, 0.6)
+brn = Color (0x5C3317, 0.9)
+clearsh = Color (0xD1EEEE, 0.4)
+dkgr = Color (0x474747, 0.82)
+
+bl_line = LineStyle(3, black)
+thinline = LineStyle(1, black)
+
+car1 = RectangleAsset(120, 70, bl_line, Orange)
+car2 = RectangleAsset(125, 60, bl_line, Lgreen)
+wheel = CircleAsset (8, bl_line, black)
+road = RectangleAsset(400, 230, thinline, dkgr)
+window = Circle Asset (6, thinline, clearsh)
+
+Sprite(pupil, (190,80))
+Sprite(pupil, (110,80))
+Sprite(mouth, (100,170))
+Sprite(hat, (115,15))
+Sprite(neck, (150,300))
+
+myapp = App()
+myapp.run()
