@@ -57,5 +57,5 @@ Sprite(mouth, (100,170))
 Sprite(hat, (115,15))
 Sprite(neck, (150,300))
 
-mineapp = App()
-mineapp.run()
+my2app = App()
+my2app.run()
