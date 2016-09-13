@@ -28,6 +28,10 @@ bgwinw = RectangleAsset(50, 55, thinline, clearsh)
 
 Sprite(road, (15,1))
 Sprite(stripe, (117,108))
+
+import picture
+picture.mineapp.run()
+
 Sprite(car1, (680,40))
 Sprite(car2, (820,40))
 Sprite(wheel, (700,115))
@@ -48,7 +52,6 @@ Sprite(bgwheels, (960,212))
 Sprite(bgwheels, (1025,212))
 Sprite(bgwinw, (795,140))
 
-import picture
-#picture.myapp.run()
+
 myapp = App()
 myapp.run()
