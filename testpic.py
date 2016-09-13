@@ -1,5 +1,6 @@
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 print("I'm going to draw you some cars and trucks!!")
+print ("Teal hat Rascal says hi")
 
 Lgreen = Color (0x7CFC00, 0.95)
 turqo = Color (0x40E0D0, 0.99)
@@ -28,8 +29,8 @@ bgwinw = RectangleAsset(50, 55, thinline, clearsh)
 
 Sprite(road, (15,1))
 Sprite(stripe, (117,108))
-myapp = App()
-myapp.run()
+my4app = App()
+my4app.run()
 
 import picture
 picture.my2app.run()
