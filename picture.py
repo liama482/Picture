@@ -5,7 +5,6 @@ Credit: http://www.december.com/html/spec/color
 
 Assignment:
 Use the ggame library to "paint" a graphical picture of something (e.g. a house, a face or landscape).
-
 Use at least:
 1. Three different Color objects.
 2. Ten different Sprite objects.
@@ -17,7 +16,6 @@ Use at least:
 See:
 https://github.com/HHS-IntroProgramming/Standards-and-Syllabus/wiki/Displaying-Graphics
 for general information on how to use ggame.
-
 See:
 http://brythonserver.github.io/ggame/
 for detailed information on ggame.
@@ -45,6 +43,7 @@ pupil = CircleAsset (8, thinline, purp)
 mouth = PolygonAsset ([(0,0), (100,0), (80,20), (20,20), (0,0)], bl_line, Orange)
 hat = RectangleAsset(80, 20, thinline, turqo)
 neck = EllipseAsset(60, 75, bl_line, pale)
+arm = PolygonAsset([(30,50), (95,50), (112,80), (30,80)], thinline, brn)
 
 Sprite(head, (150,140))
 Sprite(brkhr, (90,10))
@@ -56,6 +55,7 @@ Sprite(pupil, (110,80))
 Sprite(mouth, (100,170))
 Sprite(hat, (115,15))
 Sprite(neck, (150,300))
+Sprite(arm, (40,50))
 
 my2app = App()
 my2app.run()
